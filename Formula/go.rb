@@ -9,7 +9,7 @@ class Go < Formula
 
   livecheck do
     url "https://go.dev/dl/"
-    regex(/href=.*?go[._-]?v?(\d+(?:\.\d+)+(?:rc\d+))[._-]src\.t/i)
+    regex(/href=.*?go[._-]?v?(\d+(?:\.\d+)+)[._-]src\.t/i)
   end
 
   bottle do
