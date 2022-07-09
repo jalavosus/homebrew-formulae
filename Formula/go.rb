@@ -14,12 +14,8 @@ class Go < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/jalavosus/formulae"
-    sha256 arm64_monterey: "f9bfa7562421ece3c7bebe5eb2ea733286b33c009a2f24b932b82978b3e97446"
-    sha256 arm64_big_sur:  "7b405fbace1164c8e28f98f4b005a5b853f033ff08b0da43a7f2e31c203a1d53"
-    sha256 monterey:       "d99358b9ca6dadc9298ef1164d69fadd31ccbadd6fa21f2ddd71018164813395"
-    sha256 big_sur:        "687d07f5cf904d7cdb83a9290e646677717a39c28e52de427d14518ab027339d"
-    sha256 catalina:       "60038eabf8a61afc20dc9031124287b5faf99600613318645850db4b6757b5b4"
-    sha256 x86_64_linux:   "e1a92e8cb4f7fe7bdecaf8ec846b02915af1f0ba3329d1c7a4bf7d0981319fb5"
+    sha256 big_sur:      "ea0fe9d4766a68cc0b3c443839d44b35974a3eea2a5c1df294c9acd235131c34"
+    sha256 x86_64_linux: "318902b7b80b2cfbfc4b08d8218845e61dcf13f3d08ca5f20bdfb77bce5ef060"
   end
 
   # Don't update this unless this version cannot bootstrap the new version.
